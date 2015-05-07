@@ -1,10 +1,10 @@
 <div class="client">
-	<a href="pm.html">
-		<img src="images/pm_freeman.jpg" class="client_logo" alt="Pilot Mag logo">
-	</a>
-	<h2><a href="pm.html">PROJECTS</a></h2>
+	<%= link_to image_tag("pm_freeman.jpg", alt: "Pilot Mag logo"),
+                         pilotmag_path %>
+ <h2>PILOT MAG</h2>
+ <h3>ART DIRECTOR</h3>
 	<ul>
-    <li>art direction</li>
+    <li>print and digital production</li>
     <li>writing</li>
     <li>photography</li>
 	</ul>
@@ -13,10 +13,9 @@
 
 <div class="client">
   <%= link_to image_tag("kinetic_logo_main.svg", alt: "Kinetic logo"),
-                        "kinetic" %>
-	<h2>
-    <%= link_to "PROJECTS", kinetic_path %>
-  </h2>
+                         kinetic_path %>
+  <h2>KINETIC RESTORATION</h2>
+  <h3>ART DIRECTOR</h3>
 	<ul>
     <li>logo</li>
     <li>business cards</li>
@@ -26,27 +25,28 @@
     <li>thank you cards</li>
     <li>pens</li>
 	</ul>
+  <%= link_to "view samples", kinetic_path %>
+</div>
+
+
+<div class="client">
+  <%= link_to image_tag("bdg_logo.svg", alt: "BDG logo"),
+                         bdg_path %>
+  <h2>BROWN DEVELOPMENT GROUP</h2>
+  <h3>ART DIRECTOR</h3>
+  <ul>
+    <li>logo</li>
+    <li>business cards</li>
+    <li>web site</li>
+    <li>signage</li>
+	</ul>
+  <%= link_to "view samples", bdg_path %>
 </div>
 
 
 
 
 
-
-
-<div>
-	<a href="bdg.html#top">
-		<img src="images/bdg_logo.svg" class="portfolio_thumbs" alt="BDG logo">
-	</a>
-	<p class="titles-main"><a href="bdg.html#top">PROJECTS</a></p>
-	<p class="projects-main">
-		logo<br>
-		business forms<br>
-		web site<br>
-		brochures<br>
-		signage
-	</p>
-</div>
 
 
 <div>

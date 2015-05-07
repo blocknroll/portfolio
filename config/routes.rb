@@ -1,6 +1,22 @@
 Rails.application.routes.draw do
 
+
   root 'application#hello'
+  # root               'static_pages#home'
+  get 'portfolio' => 'static_pages#portfolio'
+  get 'resume'    => 'static_pages#resume'
+  get 'pilotmag'  => 'static_pages#pilotmag'
+  get 'kinetic'   => 'static_pages#kinetic'
+  get 'bdg'       => 'static_pages#bdg'
+  get 'mbs'       => 'static_pages#mbs'
+  get 'asi'       => 'static_pages#asi'
+  get 'vl'        => 'static_pages#vl'
+  get 'thirdlair' => 'static_pages#thirdlair'
+
+
+
+
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

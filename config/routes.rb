@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
   root               'static_pages#home'
   get 'portfolio' => 'static_pages#portfolio'
+  get 'kinetic'   => 'static_pages#kinetic'
+  
 
 
   # The priority is based upon order of creation: first created -> highest priority.

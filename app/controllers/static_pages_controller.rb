@@ -4,4 +4,7 @@ class StaticPagesController < ApplicationController
 
   def portfolio
   end
+
+  def kinetic
+  end
 end

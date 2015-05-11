@@ -2,7 +2,7 @@
 @import "bootstrap";
 
 
-/* universal */
+// UNIVERSAL ////////////////////////////////////////////////////////
 
 body {
   padding-top: 60px;
@@ -22,4 +22,29 @@ textarea {
 
 .center h1 {
   margin-bottom: 10px;
+}
+
+
+
+
+
+
+// NAVBAR /////////////////////////////////////////////////////////////
+
+nav  {
+  text-align: center;
+}
+
+.navbar-default  {
+  background-color: rgba(255, 255, 255, 1.0);
+}
+
+.navbar-toggle  {
+  margin: 12px 15px 0 0;
+}
+
+.logo  {
+  max-height: 50px;
+  margin: 5px auto;
+  padding: 0 0 0 58px;
 }

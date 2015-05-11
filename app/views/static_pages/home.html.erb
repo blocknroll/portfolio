@@ -1,21 +1,44 @@
-<h1>hello world!</h1>
-<button>"Hello world!"</button>
-<p>
-  My name is Fred Block and I'm a designer + developer based in Denver, CO.
-  Thanks for taking the time to check out my site!
-</p>
+<div class="wrapper">
 
-<p>
-  I enjoy collaborating with people on a wide variety of artistic pursuits –
-  especially designing and building applications for the web.
-</p>
 
-<p>
-  To see examples of my work, please see my
-  <%= link_to "portfolio", portfolio_path %>.
-</p>
+  <header class="navigation" role="banner">
+    <div class="navigation-wrapper">
+      <%= link_to image_tag("fredblock.svg",
+                             class: "logo", alt: "Fred Block logo"), root_path %>
+      <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+      <nav role="navigation">
+        <ul id="js-navigation-menu" class="navigation-menu show">
+          <li class="nav-link"> <%= link_to "Portfolio", portfolio_path %> </li>
+          <li class="nav-link"><a href="javascript:void(0)">Resume</a></li>
+          <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<p>
-  To learn more about me and the things I have done, please see my
-  <%= link_to "resume", resume_path %>.
-</p>
+
+
+
+  <h1>Hello world!</h1>
+
+  <p>
+    My name is Fred Block and I'm a designer + developer based in Denver, CO.
+    Thanks for taking the time to check out my site!
+  </p>
+
+  <p>
+    I enjoy collaborating with people on a wide variety of artistic pursuits –
+    especially designing and building applications for the web.
+  </p>
+
+  <p>
+    To see examples of my work, please see my
+    <%= link_to "portfolio", portfolio_path %>.
+  </p>
+
+  <p>
+    To learn more about me and the things I have done, please see my
+    <%= link_to "resume", resume_path %>.
+  </p>
+
+</div>

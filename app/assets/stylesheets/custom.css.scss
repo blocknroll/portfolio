@@ -2,12 +2,27 @@
 @import "bootstrap";
 
 
+// TYPOGRAPHY ///////////////////////////////////////////////////////
+h1, h2, h3 {
+  font-family: 'Six Caps', Arial, serif;
+  font-size: 4em;
+  text-align: center;
+}
+
+p, ul  {
+  font-family: 'Open Sans Condensed', Arial, serif;
+  font-size: 1.5em;
+}
+
 // UNIVERSAL ////////////////////////////////////////////////////////
 
 body {
   padding-top: 60px;
 }
 
+.container  {
+  padding: 0 2em 0 2em;
+}
 section {
   overflow: auto;
 }
@@ -47,4 +62,23 @@ nav  {
   max-height: 50px;
   margin: 5px auto;
   padding: 0 0 0 58px;
+}
+
+
+
+
+
+// MEDIA QUERIES /////////////////////////////////////////////////////
+
+@media (min-width: 768px)  {
+
+  .navbar-nav  {
+    margin: 14px 0 0 0;
+  }
+
+  .logo  {
+    max-height: 70px;
+    margin: 5px auto;
+    padding: 0 0 0 0;
+  }
 }

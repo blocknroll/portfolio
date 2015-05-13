@@ -84,6 +84,30 @@ a, a:focus, a:hover  {
 
 
 
+// DISPLAYS /////////////////////////////////////////////////////////
+
+.display  {
+  margin: 2em auto 8em auto;
+  text-align: center;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+
+  img  {
+    margin: 20px auto 20px auto;
+  	max-width: 66%;
+  	height : auto;
+  }
+
+  ul  {
+    margin: 0 0 10px 50px;
+    text-align: left;
+  }
+
+}
+
+
+
+
+
 
 
 // UNIVERSAL ////////////////////////////////////////////////////////

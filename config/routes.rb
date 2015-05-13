@@ -1,10 +1,9 @@
 Rails.application.routes.draw do
 
-
-  root 'application#hello'
-  # root               'static_pages#home'
+  root               'static_pages#home'
   get 'portfolio' => 'static_pages#portfolio'
   get 'resume'    => 'static_pages#resume'
+  get 'contact'   => 'static_pages#contact'
   get 'pilotmag'  => 'static_pages#pilotmag'
   get 'kinetic'   => 'static_pages#kinetic'
   get 'bdg'       => 'static_pages#bdg'

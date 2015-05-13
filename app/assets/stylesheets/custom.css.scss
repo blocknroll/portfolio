@@ -1,23 +1,95 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+// COLORS ///////////////////////////////////////////////////////////
+$black: rgba(0,0,0,1);
+$dark-gray: rgba(0,0,0,0.7);
+$med-gray: rgba(0,0,0,0.5);
+$light-gray: rgba(0,0,0,0.4);
+
+
+
+
 
 // TYPOGRAPHY ///////////////////////////////////////////////////////
+
+$heading-font-family: 'Six Caps', Arial, serif;
+$base-font-family: 'Open Sans Condensed', Arial, serif;
+
 h1, h2, h3 {
-  font-family: 'Six Caps', Arial, serif;
-  font-size: 4em;
+  font-family: $heading-font-family;
   text-align: center;
 }
 
-p, ul  {
-  font-family: 'Open Sans Condensed', Arial, serif;
-  font-size: 1.5em;
+h1  {
+  font-size: 4em;
 }
+
+h2  {
+  font-size: 3.5em;
+  color: $dark-gray;
+  margin: 20px 0 10px 0;
+}
+
+h3  {
+  font-size: 2.5em;
+  color: $light-gray;
+  margin: 0 0 20px 0;
+}
+
+p, ul  {
+  font-family: $base-font-family;
+  font-size: 1.4em;
+  color: $med-gray;
+  margin: 1em 0 1em 0;
+}
+
+ul  {
+  list-style-type: square;
+}
+
+a, a:focus, a:hover  {
+  color: $black;
+}
+
+
+
+
+
+// CLIENT SECTION //////////////////////////////////////////////////
+
+.client  {
+  margin: 2em auto 8em auto;
+  text-align: center;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+
+  img  {
+    margin: 0 auto 40px auto;
+  }
+
+  ul  {
+    margin: 0 0 10px 50px;
+    text-align: left;
+  }
+
+  .btn  {
+    font-family: $base-font-family;
+    color: $light-gray;
+    margin: 2em 0 8em 0;
+  }
+}
+
+
+
+
+
+
+
 
 // UNIVERSAL ////////////////////////////////////////////////////////
 
 body {
-  padding-top: 60px;
+  padding-top: 80px;
 }
 
 .container  {
@@ -44,25 +116,8 @@ textarea {
 
 
 
-// NAVBAR /////////////////////////////////////////////////////////////
 
-nav  {
-  text-align: center;
-}
 
-.navbar-default  {
-  background-color: rgba(255, 255, 255, 1.0);
-}
-
-.navbar-toggle  {
-  margin: 12px 15px 0 0;
-}
-
-.logo  {
-  max-height: 50px;
-  margin: 5px auto;
-  padding: 0 0 0 58px;
-}
 
 
 

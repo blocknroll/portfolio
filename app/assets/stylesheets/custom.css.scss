@@ -56,69 +56,12 @@ a, a:focus, a:hover  {
 
 
 
-// CLIENT SECTION //////////////////////////////////////////////////
-
-.client  {
-  margin: 2em auto 8em auto;
-  text-align: center;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
-
-  img  {
-    margin: 0 auto 40px auto;
-  }
-
-  ul  {
-    margin: 0 0 10px 50px;
-    text-align: left;
-  }
-
-  .btn  {
-    font-family: $base-font-family;
-    color: $light-gray;
-    margin: 2em 0 8em 0;
-  }
-}
-
-
-
-
-
-
-// DISPLAYS /////////////////////////////////////////////////////////
-
-.display  {
-  margin: 2em auto 8em auto;
-  text-align: center;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
-
-  img  {
-    margin: 20px auto 20px auto;
-  	max-width: 66%;
-  	height : auto;
-  }
-
-  ul  {
-    margin: 0 0 10px 50px;
-    text-align: left;
-  }
-
-}
-
-
-
-
-
-
-
 // UNIVERSAL ////////////////////////////////////////////////////////
 
 body {
   padding-top: 80px;
 }
 
-.container  {
-  padding: 0 2em 0 2em;
-}
 section {
   overflow: auto;
 }
@@ -127,20 +70,76 @@ textarea {
   resize: vertical;
 }
 
+.container  {
+  padding: 0 2em 0 2em;
+}
+
 .center {
   text-align: center;
 }
 
-.center h1 {
-  margin-bottom: 10px;
+// .center h1 {
+//   margin-bottom: 10px;
+// }
+
+
+
+
+
+
+// DISPLAY BOXES /////////////////////////////////////////////////////////
+
+.display_box  {
+  margin: 2em auto 8em auto;
+  text-align: center;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+
+  img  {
+    margin: 0 auto 40px auto;
+
+    // margin: 20px auto 20px auto;
+  	max-width: 100%;
+  	// height : auto;
+  }
+
+  ul  {
+    margin: 0 0 10px 0px;
+    text-align: left;
+  }
+
+  .btn  {
+    font-family: $base-font-family;
+    color: $light-gray;
+    margin: 2em 0 8em 0;
+  }
+
 }
 
 
 
 
+// CLIENT SECTION //////////////////////////////////////////////////
 
-
-
+// .client  {
+//   margin: 2em auto 8em auto;
+//   text-align: center;
+//   border-bottom: 1px solid rgba(0,0,0,0.1);
+//
+//   img  {
+//     margin: 0 auto 40px auto;
+//   }
+//
+//   ul  {
+//     margin: 0 0 10px 0px;
+//     text-align: left;
+//   }
+//
+//   .btn  {
+//     font-family: $base-font-family;
+//     color: $light-gray;
+//     margin: 2em 0 8em 0;
+//   }
+// }
 
 
 

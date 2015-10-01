@@ -13,7 +13,7 @@ $light-gray: rgba(0,0,0,0.4);
 
 // TYPOGRAPHY ///////////////////////////////////////////////////////
 
-$heading-font-family: 'Six Caps', Arial, serif;
+$heading-font-family: 'Open Sans Condensed', Arial, serif;
 $base-font-family: 'Open Sans Condensed', Arial, serif;
 
 h1, h2, h3 {
@@ -22,25 +22,31 @@ h1, h2, h3 {
 }
 
 h1  {
-  font-size: 4em;
+  font-size: 3em;
+  text-transform: uppercase;
 }
 
 h2  {
-  font-size: 3.5em;
-  color: $dark-gray;
+  color: $light-gray;
+  font-size: 1.9em;
+  font-weight: 300;
   margin: 20px 0 10px 0;
+  text-transform: uppercase;
 }
 
 h3  {
-  font-size: 2.5em;
-  color: $light-gray;
-  margin: 0 0 20px 0;
+  color: $dark-gray;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
 }
 
 p, ul  {
-  font-family: $base-font-family;
-  font-size: 1.4em;
   color: $med-gray;
+  font-family: $base-font-family;
+  font-size: 1.2em;
+  font-weight: 300;
   margin: 1em 0 1em 0;
 }
 
@@ -78,9 +84,13 @@ textarea {
   text-align: center;
 }
 
-// .center h1 {
-//   margin-bottom: 10px;
-// }
+
+
+.btn  {
+  font-family: $base-font-family;
+  color: $light-gray;
+  margin: 1em 0 8em 0;
+}
 
 
 
@@ -107,13 +117,8 @@ textarea {
     text-align: left;
   }
 
-  .btn  {
-    font-family: $base-font-family;
-    color: $light-gray;
-    margin: 2em 0 8em 0;
-  }
-
 }
+
 
 
 

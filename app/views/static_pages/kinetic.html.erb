@@ -71,13 +71,13 @@
 
 
 <div class="display_box">
+  <p class="projects_captions">pens</p>
   <%= image_tag("kinetic_pen.jpg",
                  class: "portfolio_images", alt: "Kinetic pens") %>
 </div>
 
 
 
+<%= link_to "back to PORTFOLIO", portfolio_path, class: "btn btn-default" %>
 
-<p class="backtotop">[<a href="portfolio.html#top"> back to PORTFOLIO </a>]</p>
-
-<p class="backtotop">[<a href="#top"> back to top </a>]</p>
+<%= link_to "back to top", kinetic_path, class: "btn btn-default" %>

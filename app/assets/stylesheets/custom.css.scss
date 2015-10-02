@@ -102,7 +102,7 @@ textarea {
 .display_box  {
   margin: 2em auto 8em auto;
   text-align: center;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border: 1px solid rgba(0,0,0,0.1);
 
   img  {
     margin: 0 auto 40px auto;
@@ -115,6 +115,10 @@ textarea {
   ul  {
     margin: 0 0 10px 0px;
     text-align: left;
+  }
+
+  hr  {
+    // border: 1px solid rgba(0,0,0,0.1);
   }
 
 }

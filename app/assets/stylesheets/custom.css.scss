@@ -100,7 +100,8 @@ textarea {
 // DISPLAY BOXES /////////////////////////////////////////////////////////
 
 .display_box  {
-  margin: 2em auto 8em auto;
+  background-color: $light-gray;
+  // margin: 2em auto 8em auto;
   text-align: center;
   border: 1px solid rgba(0,0,0,0.1);
 
@@ -121,6 +122,11 @@ textarea {
     // border: 1px solid rgba(0,0,0,0.1);
   }
 
+}
+
+
+.row-red  {
+  border: 1px solid red;
 }
 
 

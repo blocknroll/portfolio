@@ -68,7 +68,7 @@ ul  {
 }
 
 a, a:focus, a:hover  {
-  color: red;
+  color: $black-50;
 }
 
 
@@ -164,15 +164,16 @@ textarea {
 
 // DISPLAY BOXES /////////////////////////////////////////////////////////
 
-.display_box  {
-  margin-top: -1px;
-  text-align: center;
+.display-box  {
   border: 1px solid $black-10;
+  margin-top: -1px;
+  // padding-right: 20px;
+  // padding-left: 20px;
+  text-align: center;
 
   img  {
     margin: 0px auto 0px auto;
-  	max-width: 100%;
-  	// height : auto;
+    // margin-bottom: 20px;
   }
 
   ul  {
@@ -184,9 +185,47 @@ textarea {
 }
 
 
+.display-box-padded  {
+  border: 1px solid $black-10;
+  margin-top: -1px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+
+  img  {
+    margin: 0px auto 0px auto;
+    margin-bottom: 20px;
+
+  }
+
+  ul  {
+    margin: 0.7em 0 0.7em 0px;
+    padding-left: 20px;
+    text-align: left;
+  }
+
+}
 
 
+.padded-20px  {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
 
+.padding-top-20px  {
+  padding-top: 20px;
+}
+
+.margin-bottom-20px  {
+  margin-bottom: 20px;
+}
+
+.padding-sides-20px  {
+  padding-right: 20px;
+  padding-left: 20px;
+}
 
 
 

@@ -241,6 +241,14 @@ textarea {
   max-width: 100%;
 }
 
+.embed-container-sd {
+  position: relative;
+  padding-bottom: 70%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
 .embed-container iframe,
 .embed-container object,
 .embed-container embed  {

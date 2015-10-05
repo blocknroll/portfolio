@@ -5,7 +5,6 @@ Rails.application.routes.draw do
   get 'resume'    => 'static_pages#resume'
   get 'contact'   => 'static_pages#contact'
   get 'pilotmag'  => 'static_pages#pilotmag'
-  get '/pm_extra330.pdf' => 'static_pages#pilotmag/pm_extra330.pdf'
   get 'kinetic'   => 'static_pages#kinetic'
   get 'bdg'       => 'static_pages#bdg'
   get 'mbs'       => 'static_pages#mbs'

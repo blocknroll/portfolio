@@ -24,6 +24,10 @@ $light-gray: rgba(234,234,234,1.0);
 
 
 
+
+
+
+
 // TYPOGRAPHY ///////////////////////////////////////////////////////
 
 $heading-font-family: 'Open Sans Condensed', Arial, serif;
@@ -67,9 +71,7 @@ ul  {
   list-style-type: square;
 }
 
-a, a:focus, a:hover  {
-  color: $black-50;
-}
+
 
 
 
@@ -100,6 +102,21 @@ textarea {
 
 
 
+
+.link-underlined  {
+  color: $black-80;
+  text-decoration: underline;
+}
+
+.link-underlined
+  a, a:focus, a:hover  {
+    color: $black-30;
+    text-decoration: underline;
+  }
+
+
+
+
 .btn  {
   font-family: $base-font-family;
   border-radius: 0px;
@@ -110,6 +127,7 @@ textarea {
   color: $black-50;
   background-color: $white;
   border-color: $black-10;
+
 }
 
 .btn-default:hover,

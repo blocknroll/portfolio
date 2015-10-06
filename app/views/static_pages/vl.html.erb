@@ -5,7 +5,7 @@
 	                col-sm-8 col-sm-offset-2
 	                col-md-6 col-md-offset-3">
 
-				<div class="display-box">
+				<div class="display-box-padded">
 						<%= image_tag("vl-logo.svg",
 		                       class: "img-responsive",
 													 alt: "Victory Lane logo") %>
@@ -190,6 +190,30 @@
 	                col-md-6 col-md-offset-3">
 
         <div class="display-box">
+						<%= image_tag("vl-ad-vm-jul07.jpg",
+		                       class: "img-responsive",
+													 alt: "Victory Lane ad") %>
+			  </div>
+
+        <div class="display-box">
+				  <p>advertisement</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-8 col-xs-offset-2
+	                col-sm-8 col-sm-offset-2
+	                col-md-6 col-md-offset-3">
+
+        <div class="display-box">
 						<%= image_tag("vl-ad-vm-jun07.jpg",
 		                       class: "img-responsive",
 													 alt: "Victory Lane ad") %>
@@ -215,30 +239,6 @@
 
         <div class="display-box">
 						<%= image_tag("vl-ad-vm-feb08.jpg",
-		                       class: "img-responsive",
-													 alt: "Victory Lane ad") %>
-			  </div>
-
-        <div class="display-box">
-				  <p>advertisement</p>
-				</div>
-
-			</div>
-		</div>
-	</div>
-</section>
-
-
-
-<section>
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-8 col-xs-offset-2
-	                col-sm-8 col-sm-offset-2
-	                col-md-6 col-md-offset-3">
-
-        <div class="display-box">
-						<%= image_tag("vl-ad-vm-jul07.jpg",
 		                       class: "img-responsive",
 													 alt: "Victory Lane ad") %>
 			  </div>
@@ -502,13 +502,20 @@
 	                col-md-6 col-md-offset-3">
 
         <div class="display-box">
-						<%= image_tag("vl-advert-Robb-0806.jpg",
+						<%= image_tag("vl-article-coldwell-0907.jpg",
 		                       class: "img-responsive",
 													 alt: "Victory Lane ad") %>
 			  </div>
 
         <div class="display-box">
-				  <p>advertisement</p>
+				  <p>article</p>
+				</div>
+
+				<div class="display-box">
+				  <p>
+						<%= link_to "download pdf", "vl-article-coldwell.pdf",
+						             class: "btn btn-default", target: "_blank" %>
+          </p>
 				</div>
 
 			</div>
@@ -526,20 +533,14 @@
 	                col-md-6 col-md-offset-3">
 
         <div class="display-box">
-						<%= image_tag("vl-article-coldwell-0907.jpg",
+						<%= image_tag("vl-advert-Robb-0806.jpg",
 		                       class: "img-responsive",
 													 alt: "Victory Lane ad") %>
 			  </div>
 
         <div class="display-box">
-				  <p>article</p>
+				  <p>advertisement</p>
 				</div>
-
-        <!-- <div class="display-box">
-				  <p>
-            <%= link_to "pdf", "vl-article-coldwell.pdf" %>
-          </p>
-				</div> -->
 
 			</div>
 		</div>

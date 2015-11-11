@@ -37,4 +37,9 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+  test "should get thirdlair" do
+    get :thirdlair
+    assert_response :success
+  end
+
 end

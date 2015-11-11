@@ -40,6 +40,7 @@ class StaticPagesControllerTest < ActionController::TestCase
   test "should get pilotmag" do
     get :pilotmag
     assert_response :success
+    assert_select "title", "Fred Block | Pilot Mag"
   end
 
   test "should get thirdlair" do

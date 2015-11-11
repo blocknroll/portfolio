@@ -52,6 +52,7 @@ class StaticPagesControllerTest < ActionController::TestCase
   test "should get vl" do
     get :vl
     assert_response :success
+    assert_select "title", "Fred Block | Victory Lane"
   end
 
 end

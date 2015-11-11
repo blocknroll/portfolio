@@ -32,4 +32,9 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+  test "should get pilotmag" do
+    get :pilotmag
+    assert_response :success
+  end
+
 end

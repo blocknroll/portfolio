@@ -12,4 +12,9 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+  test "should get resume" do
+    get :resume
+    assert_response :success
+  end
+
 end

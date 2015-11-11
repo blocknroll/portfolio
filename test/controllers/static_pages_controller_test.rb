@@ -11,6 +11,7 @@ class StaticPagesControllerTest < ActionController::TestCase
   test "should get portfolio" do
     get :portfolio
     assert_response :success
+    assert_select "title", "Fred Block | Portfolio"
   end
 
   test "should get resume" do

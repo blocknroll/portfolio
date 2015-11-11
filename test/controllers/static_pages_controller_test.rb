@@ -34,6 +34,7 @@ class StaticPagesControllerTest < ActionController::TestCase
   test "should get kinetic" do
     get :kinetic
     assert_response :success
+    assert_select "title", "Fred Block | Kinetic Restoration"
   end
 
   test "should get pilotmag" do

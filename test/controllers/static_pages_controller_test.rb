@@ -28,6 +28,7 @@ class StaticPagesControllerTest < ActionController::TestCase
   test "should get bdg" do
     get :bdg
     assert_response :success
+    assert_select "title", "Fred Block | Brown Development Group"
   end
 
   test "should get kinetic" do

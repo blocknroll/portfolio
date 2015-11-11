@@ -46,6 +46,7 @@ class StaticPagesControllerTest < ActionController::TestCase
   test "should get thirdlair" do
     get :thirdlair
     assert_response :success
+    assert_select "title", "Fred Block | 3rd Lair"
   end
 
   test "should get vl" do

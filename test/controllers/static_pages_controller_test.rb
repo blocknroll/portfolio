@@ -42,4 +42,9 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+  test "should get vl" do
+    get :vl
+    assert_response :success
+  end
+
 end

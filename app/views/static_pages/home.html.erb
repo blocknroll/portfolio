@@ -1,36 +1,43 @@
 <% provide(:title, "Home") %>
 
 <section>
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-8 col-xs-offset-2
-	                col-sm-8 col-sm-offset-2
-	                col-md-6 col-md-offset-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-8 col-xs-offset-2
+                  col-sm-8 col-sm-offset-2
+                  col-md-6 col-md-offset-3">
 
         <h2>hello world!</h2>
 
         <p>
           My name is Fred Block and I'm a graphic designer, web developer, and
-					commercial pilot based in Denver, CO.
+          commercial pilot based in Denver, CO.
           Thanks for taking the time to check out my site!
         </p>
 
         <p>
-          To see examples of my work, please see my
+          To see examples of my graphic and web design work, please see my
           <%= link_to "portfolio", portfolio_path, class: "link-underlined" %>.
         </p>
 
         <p>
-          To learn more about me and the things I have done, please see my
-          <%= link_to "resume", "FredBlock-resume.pdf", class: "link-underlined", target: "_blank" %>.
+          To see examples of my code, please see my
+          <%= link_to "github", "https://github.com/blocknroll",
+          class: "link-underlined", target: "_blank" %> account.
         </p>
 
-				<p>
-          My email:<br>
-					hello at fred block dot com
+        <p>
+          To learn more about me and the things I've done, please see my
+          <%= link_to "resume", "FredBlock-resume.pdf",
+          class: "link-underlined", target: "_blank" %>.
+        </p>
+
+        <p>
+          Please email me at:<br>
+          <%= image_tag("email-gray.svg", class: "email-gray") %>
         </p>
 
       </div>
-		</div>
-	</div>
+    </div>
+  </div>
 </section>
